@@ -1,0 +1,7 @@
+---
+#Ansible role for creating swapfile on Linux server
+ - name: creating and deploying swap file
+   become: yes
+   hosts: all
+   roles:
+    - geerlingguy.swap

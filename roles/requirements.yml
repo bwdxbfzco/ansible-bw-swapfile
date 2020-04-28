@@ -1,0 +1,4 @@
+---
+roles:
+  # install swap role from Galaxy
+  - name: geerlingguy.swap
